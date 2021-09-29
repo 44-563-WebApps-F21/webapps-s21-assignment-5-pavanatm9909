@@ -1,0 +1,11 @@
+.table
+{
+    border: 2px solid black;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.table tr:nth-child(even){
+    background-color: darkseagreen;
+}

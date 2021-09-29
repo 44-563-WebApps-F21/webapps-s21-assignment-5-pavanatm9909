@@ -4,7 +4,7 @@
   <title>Animals</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <link href="style.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
@@ -32,7 +32,7 @@
         <div class = " col-md" style = background-color:gainsboro;>Kangaroo</div>
         <div class = " col-md" style = background-color:gainsboro;>Urial</div>
 </div>
-</div>
+
 <p>Because of the col-md size, which should be >= 992px, the Animal Names row breaks first into the Second row when we resize till just one of the rows is horizontal.</p>
 <div class="container">
     <img src="bearcat.jpg" class="img-fluid" alt="bearcat Image" height="333" width="333">
@@ -43,6 +43,72 @@
     <img src="bearcat.jpg" class="img-thumbnail" alt="bearcat Image" height="333" width="333">
     <img src="peakcock.jpg" class="img-thumbnail" alt="peakcock Image" height="333" width="333">
     <img src="Rabbit.jpg" class="img-thumbnail" alt="Rabbit Image" height="333" width="333">
+</div>
+<br>
+<caption>List of Animals, Cities and Cars starts with my Lastname six letters</caption>
+<table class="table table-striped table-bordered table-hover table-responsive">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">Letter</th>
+        <th scope="col">Animal</th>
+        <th scope="col">City</th>
+        <th scope="col">Car</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">A</th>
+        <td>Ant</td>
+        <td>anthapuram</td>
+        <td>AUDI</td>
+      </tr>
+      <tr>
+        <th scope="row">T</th>
+        <td>Tiger</td>
+        <td>Tirupati</td>
+        <td>Toyota</td>
+      </tr>
+      <tr>
+        <th scope="row">M</th>
+        <td>Monkey</td>
+        <td>Matur</td>
+        <td>mustang</td>
+      </tr>
+      <tr>
+        <th scope="row">A</th>
+        <td>Aardvark</td>
+        <td>Amaravathi</td>
+        <td>Acura</td>
+      </tr>
+      <tr>
+        <th scope="row">K</th>
+        <td>Kangaroo</td>
+        <td>Kadapa</td>
+        <td>Kia</td>
+      </tr>
+      <tr>
+        <th scope="row">U</th>
+        <td>Uakari</td>
+        <td>uttar pradesh</td>
+        <td>Uniti</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="container">
+    <div class="btn-toolbar" role="toolbar" aria-label="Buttons">
+      <div class="btn-group" role="group" aria-label="First Group">
+        <button type="button" class="btn btn-success">A</button>
+        <button type="button" class="btn btn-success">T</button>
+        <button type="button" class="btn btn-success">M</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Second Group">
+        <button type="button" class="btn btn-warning">A</button>
+        <button type="button" class="btn btn-warning">K</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Third Group">
+        <button type="button" class="btn btn-danger">U</button>
+      </div>
+    </div>
 </div>
 </body>
 </html>
