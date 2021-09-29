@@ -9,3 +9,22 @@
 .table tr:nth-child(even){
     background-color: darkseagreen;
 }
+#dropdown1{
+    background-color: rgb(141, 149, 226);
+    border-radius: 6em;
+}
+a.navbar-brand{
+    color: black;
+}
+a.navbar-brand:hover{
+    color:rgb(10, 60, 168);
+    background-color:rgb(90, 231, 133);
+}
+a.nav-link{
+    color: black;
+    font-size: 20px;
+}
+a.nav-link:hover{
+    color: rgb(10, 60, 168);
+    background-color:rgb(90, 231, 133);
+}
